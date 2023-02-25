@@ -7,4 +7,12 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    app: {
+        head: {
+            title: "Nuxt JS",
+            meta: [
+                {name: "description Nuxt JS", content: "content Nuxt JS"}
+            ]
+        }
+    }
 })
